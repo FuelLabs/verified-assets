@@ -22,12 +22,13 @@ for asset in assets:
 
 	for network in converted_asset["networks"]:
 
-		# Convert chainPath to chainId
-		major_network, chain = network['chainPath'].split('.')
-		network["chainId"] = chains[major_network][chain]
+		# Convert type and chain to chainId
+		network_type = network['type']
+		chain = network['chain']
+		network["chainId"] = chains[network_type][chain]
 		
 		# And remove chainPath
-		del network['chainPath']
+		del network['chain']
 
 	# write out the local version
 	local_data.append(deepcopy(converted_asset))
