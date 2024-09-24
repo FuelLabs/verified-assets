@@ -1,0 +1,43 @@
+name: Generate assets.md
+
+on:
+  push:
+    paths:
+      - 'assets.json'
+  pull_request:
+    paths:
+      - 'assets.json'
+
+jobs:
+  generate_assets_md:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # Install any dependencies if needed
+          # pip install -r requirements.txt
+
+      - name: Run the script to generate assets.md
+        run: |
+          python generate_assets_md.py
+
+      - name: Check if assets.md is up-to-date
+        run: |
+          git config --global --add safe.directory $GITHUB_WORKSPACE
+          if git diff --exit-code assets.md; then
+            echo "assets.md is up-to-date."
+          else
+            echo "assets.md is not up-to-date with assets.json."
+            echo "Please run generate_assets_md.py and commit the changes to assets.md."
+            exit 1
+          fi
