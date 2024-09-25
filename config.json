@@ -1,0 +1,37 @@
+{
+  "chainIds": {
+    "ethereum": {
+      "mainnet": 1,
+      "sepolia": 11155111,
+      "foundry": 31337
+    },
+    "fuel": {
+      "devnet": 0,
+      "testnet": 0,
+      "mainnet": 9889
+    }
+  },
+  "fuelAddressConfig": {
+    "devnet": {
+      "l1_type": "ethereum",
+      "l1_chain": "sepolia",
+      "l1_ecr20_bridge": "0x8B96Ed4aA36041B91a8510A1c644fC72177B5eA0",
+      "l2_contract": "0x12f300d6d2b286dd5d290b709e0d3d73acc23c87ec10d349d4386b9524d740a1"
+    },
+    "testnet": {
+      "l1_type": "ethereum",
+      "l1_chain": "sepolia",
+      "l1_ecr20_bridge": "0xd1d5a4379dccC46D5c8D1c6c2656ce705698e359",
+      "l2_contract": "0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471"
+    },
+    "mainnet": {
+      "l1_type": "ethereum",
+      "l1_chain": "mainnet",
+      "l1_ecr20_bridge": "0xa4cA04d02bfdC3A2DF56B9b6994520E69dF43F67",
+      "l2_contract": "0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8"
+    }
+  },
+  "cdn": {
+    "icon": "https://verified-assets.fuel.network/"
+  }
+}
