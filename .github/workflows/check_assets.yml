@@ -28,24 +28,19 @@ jobs:
           python create_assets_json.py
           python create_assets_md.py
 
-      - name: Check if assets.gen.json is up-to-date
-        run: |
-          git config --global --add safe.directory $GITHUB_WORKSPACE
-          if git diff --exit-code assets.gen.json; then
-            echo "assets.gen.json is up-to-date."
-          else
-            echo "assets.gen.json is not up-to-date with assets.json."
-            echo "Please run create_assets_json.py and commit the changes to assets.gen.json."
-            exit 1
-          fi
+      - name: Verify Changed files
+        uses: tj-actions/verify-changed-files@v20
+        id: verify-changed-files
+        with:
+          files: |
+            assets.gen.json
+            ASSETS.md
 
-      - name: Check if ASSETS.md is up-to-date
+      - name: Check that generated files are up-to-date
+        if: steps.verify-changed-files.outputs.files_changed == 'true'
+        env:
+          CHANGED_FILES: ${{ steps.verify-changed-files.outputs.changed_files }}
         run: |
-          git config --global --add safe.directory $GITHUB_WORKSPACE
-          if git diff --exit-code ASSETS.md; then
-            echo "ASSETS.md is up-to-date."
-          else
-            echo "ASSETS.md is not up-to-date with assets.json."
-            echo "Please run create_assets_md.py and commit the changes to ASSETS.md."
-            exit 1
-          fi
+          echo "Changed files: $CHANGED_FILES"
+          echo "Generated files are not up-to-date, run create_assets_json.py and create_assets_md.py"
+          exit 1
