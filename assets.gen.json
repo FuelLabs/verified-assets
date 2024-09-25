@@ -2,7 +2,7 @@
   {
     "name": "Ethereum",
     "symbol": "ETH",
-    "icon": "https://verified-assets.fuel.network/images/eth.svg",
+    "icon": "images/eth.svg",
     "networks": [
       {
         "type": "ethereum",
@@ -48,7 +48,7 @@
   {
     "name": "WETH",
     "symbol": "WETH",
-    "icon": "https://verified-assets.fuel.network/images/weth.svg",
+    "icon": "images/weth.svg",
     "networks": [
       {
         "type": "ethereum",
@@ -71,7 +71,7 @@
   {
     "name": "weETH",
     "symbol": "weETH",
-    "icon": "https://verified-assets.fuel.network/images/weETH.webp",
+    "icon": "images/weETH.webp",
     "networks": [
       {
         "type": "ethereum",
@@ -94,7 +94,7 @@
   {
     "name": "rsETH",
     "symbol": "rsETH",
-    "icon": "https://verified-assets.fuel.network/images/rsETH.webp",
+    "icon": "images/rsETH.webp",
     "networks": [
       {
         "type": "ethereum",
@@ -117,7 +117,7 @@
   {
     "name": "rETH",
     "symbol": "rETH",
-    "icon": "https://verified-assets.fuel.network/images/reth.svg",
+    "icon": "images/reth.svg",
     "networks": [
       {
         "type": "ethereum",
@@ -140,7 +140,7 @@
   {
     "name": "wbETH",
     "symbol": "wbETH",
-    "icon": "https://verified-assets.fuel.network/images/wbeth.png",
+    "icon": "images/wbeth.png",
     "networks": [
       {
         "type": "ethereum",
@@ -163,7 +163,7 @@
   {
     "name": "rstETH",
     "symbol": "rstETH",
-    "icon": "https://verified-assets.fuel.network/images/rstETH.webp",
+    "icon": "images/rstETH.webp",
     "networks": [
       {
         "type": "ethereum",
@@ -186,7 +186,7 @@
   {
     "name": "amphrETH",
     "symbol": "amphrETH",
-    "icon": "https://verified-assets.fuel.network/images/amphrETH.png",
+    "icon": "images/amphrETH.png",
     "networks": [
       {
         "type": "ethereum",
@@ -209,7 +209,7 @@
   {
     "name": "Manta mBTC",
     "symbol": "Manta mBTC",
-    "icon": "https://verified-assets.fuel.network/images/manta-mbtc.svg",
+    "icon": "images/manta-mbtc.svg",
     "networks": [
       {
         "type": "ethereum",
@@ -232,7 +232,7 @@
   {
     "name": "Manta mETH",
     "symbol": "Manta mETH",
-    "icon": "https://verified-assets.fuel.network/images/manta-meth.svg",
+    "icon": "images/manta-meth.svg",
     "networks": [
       {
         "type": "ethereum",
@@ -255,7 +255,7 @@
   {
     "name": "Manta mUSD",
     "symbol": "Manta mUSD",
-    "icon": "https://verified-assets.fuel.network/images/manta-musd.svg",
+    "icon": "images/manta-musd.svg",
     "networks": [
       {
         "type": "ethereum",
@@ -278,7 +278,7 @@
   {
     "name": "pumpBTC",
     "symbol": "pumpBTC",
-    "icon": "https://verified-assets.fuel.network/images/pumpbtc.webp",
+    "icon": "images/pumpbtc.webp",
     "networks": [
       {
         "type": "ethereum",
@@ -301,7 +301,7 @@
   {
     "name": "FBTC",
     "symbol": "FBTC",
-    "icon": "https://verified-assets.fuel.network/images/fbtc.svg",
+    "icon": "images/fbtc.svg",
     "networks": [
       {
         "type": "ethereum",
@@ -324,7 +324,7 @@
   {
     "name": "SolvBTC",
     "symbol": "SolvBTC",
-    "icon": "https://verified-assets.fuel.network/images/solvBTC.webp",
+    "icon": "images/solvBTC.webp",
     "networks": [
       {
         "type": "ethereum",
@@ -347,7 +347,7 @@
   {
     "name": "SolvBTC.BBN",
     "symbol": "SolvBTC.BBN",
-    "icon": "https://verified-assets.fuel.network/images/SolvBTC.BBN.png",
+    "icon": "images/SolvBTC.BBN.png",
     "networks": [
       {
         "type": "ethereum",
@@ -370,7 +370,7 @@
   {
     "name": "Mantle mETH",
     "symbol": "Mantle mETH",
-    "icon": "https://verified-assets.fuel.network/images/mantle-meth.svg",
+    "icon": "images/mantle-meth.svg",
     "networks": [
       {
         "type": "ethereum",
@@ -393,7 +393,7 @@
   {
     "name": "sDAI",
     "symbol": "sDAI",
-    "icon": "https://verified-assets.fuel.network/images/sdai.svg",
+    "icon": "images/sdai.svg",
     "networks": [
       {
         "type": "ethereum",
@@ -416,7 +416,7 @@
   {
     "name": "USDT",
     "symbol": "USDT",
-    "icon": "https://verified-assets.fuel.network/images/usdt.svg",
+    "icon": "images/usdt.svg",
     "networks": [
       {
         "type": "ethereum",
@@ -439,7 +439,7 @@
   {
     "name": "USDC",
     "symbol": "USDC",
-    "icon": "https://verified-assets.fuel.network/images/usdc.svg",
+    "icon": "images/usdc.svg",
     "networks": [
       {
         "type": "ethereum",
@@ -478,7 +478,7 @@
   {
     "name": "USDe",
     "symbol": "USDe",
-    "icon": "https://verified-assets.fuel.network/images/USDe.svg",
+    "icon": "images/USDe.svg",
     "networks": [
       {
         "type": "ethereum",
@@ -517,7 +517,7 @@
   {
     "name": "sUSDe",
     "symbol": "sUSDe",
-    "icon": "https://verified-assets.fuel.network/images/sUSDe.webp",
+    "icon": "images/sUSDe.webp",
     "networks": [
       {
         "type": "ethereum",
@@ -556,7 +556,7 @@
   {
     "name": "rsUSDe",
     "symbol": "rsUSDe",
-    "icon": "https://verified-assets.fuel.network/images/rsUSDe.svg",
+    "icon": "images/rsUSDe.svg",
     "networks": [
       {
         "type": "ethereum",
@@ -579,7 +579,7 @@
   {
     "name": "wstETH",
     "symbol": "wstETH",
-    "icon": "https://verified-assets.fuel.network/images/wsteth.svg",
+    "icon": "images/wsteth.svg",
     "networks": [
       {
         "type": "ethereum",
@@ -618,7 +618,7 @@
   {
     "name": "ezETH",
     "symbol": "ezETH",
-    "icon": "https://verified-assets.fuel.network/images/ezeth.webp",
+    "icon": "images/ezeth.webp",
     "networks": [
       {
         "type": "ethereum",
@@ -641,7 +641,7 @@
   {
     "name": "pzETH",
     "symbol": "pzETH",
-    "icon": "https://verified-assets.fuel.network/images/pzETH.webp",
+    "icon": "images/pzETH.webp",
     "networks": [
       {
         "type": "ethereum",
@@ -664,7 +664,7 @@
   {
     "name": "Re7LRT",
     "symbol": "Re7LRT",
-    "icon": "https://verified-assets.fuel.network/images/Re7LRT.png",
+    "icon": "images/Re7LRT.png",
     "networks": [
       {
         "type": "ethereum",
@@ -687,7 +687,7 @@
   {
     "name": "steakLRT",
     "symbol": "steakLRT",
-    "icon": "https://verified-assets.fuel.network/images/steakLRT.png",
+    "icon": "images/steakLRT.png",
     "networks": [
       {
         "type": "ethereum",
