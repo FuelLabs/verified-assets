@@ -97,10 +97,10 @@ def generate_markdown():
 
         markdown += "\n"
 
-    with open('assets.md', 'w', encoding='utf-8') as f:
+    with open('ASSETS.md', 'w', encoding='utf-8') as f:
         f.write(markdown)
 
-    print('assets.md has been generated successfully.')
+    print('ASSETS.md has been generated successfully.')
 
 if __name__ == "__main__":
     generate_markdown()
