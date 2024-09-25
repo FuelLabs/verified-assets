@@ -100,7 +100,7 @@ def generate_final_assets():
 
 	# Uncompressed output for repo
 	with open('assets.gen.json', 'w') as f:
-		json.dump(cdn_data, f, indent=2)
+		json.dump(local_data, f, indent=2)
 
 	print('Asset file regenerated')
 
