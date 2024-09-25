@@ -1,10 +1,6 @@
 name: Check Asset updates
 
 on:
-  push:
-    paths:
-      - 'assets.json'
-      - 'assets.gen.json'
   pull_request:
     paths:
       - 'assets.json'
