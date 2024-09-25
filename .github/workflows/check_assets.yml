@@ -39,13 +39,13 @@ jobs:
             exit 1
           fi
 
-      - name: Check if assets.md is up-to-date
+      - name: Check if ASSETS.md is up-to-date
         run: |
           git config --global --add safe.directory $GITHUB_WORKSPACE
-          if git diff --exit-code assets.md; then
-            echo "assets.md is up-to-date."
+          if git diff --exit-code ASSETS.md; then
+            echo "ASSETS.md is up-to-date."
           else
-            echo "assets.md is not up-to-date with assets.json."
-            echo "Please run create_assets_md.py and commit the changes to assets.md."
+            echo "ASSETS.md is not up-to-date with assets.json."
+            echo "Please run create_assets_md.py and commit the changes to ASSETS.md."
             exit 1
           fi
