@@ -22,18 +22,24 @@ To submit new assets for inclusion in the verified assets list, [open a new Issu
 
 ## Included Files
 
-### assets.json
+### `assets.json`
 
 This is the list of assets that have been verified by the Fuel team. It contains critical information such as asset ids, chain information, and so on.
 
 There are also lists to icons. If you chose to use those icons, please host them yourselves to be polite to Fuel's CDN.
 
-### chains.json
+This file is used to build the `assets.gen.json` file
 
-This is the list of chains associated with various assets.
+### `assets.gen.json`
 
-The reference `chainPath` in the assets entries contains `'major_network.chain_name'` references that can be used to look up the proper chain id in this chains.json file.
+Finalized list of asset configurations. This file is published to the CDN, and is the format that should be used by all projects integrating with this repository.
 
-### cdn.json
+It is built from the contents of the `assets.json` file using the `create_assets_json.py` script.
 
-This is the cdn where icons are hosted. Please be polite when using this CDN and cache all images yourself to help with Fuel's bandwidth costs.
+### `ASSETS.md`
+
+User friendly list of all currently supported assets, including their network, addresses, and other metadata. It is built from the contents of the `assets.gen.json` file using the `create_assets_md.py` script.
+
+### `config.json`
+
+Configuration variables for bridge contracts, CDN URLs, and other information needed to generate the `assets.gen.json` and `ASSETS.md` files. It is used by the Python scripts.
