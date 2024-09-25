@@ -9,4 +9,5 @@
 .idea
 .env
 *.gen.json
+!assets.gen.json
 *.zip

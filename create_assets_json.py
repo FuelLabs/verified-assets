@@ -65,39 +65,44 @@ def calculate_fuel_asset_id(contract_id, sub_id):
 	parsed_contract_id = parse_address_to_bytes(contract_id)
 	return sha256(parsed_contract_id, sub_id.digest())
 
-local_data = []
-cdn_data = []
+def generate_final_assets():
+	local_data = []
+	cdn_data = []
 
-# Generate final asset config
-for asset in assets:
-	converted_asset = deepcopy(asset)
+	# Generate final asset config
+	for asset in assets:
+		converted_asset = deepcopy(asset)
 
-	for network in converted_asset["networks"]:
+		for network in converted_asset["networks"]:
 
-		# Convert type and chain to chainId
-		network_type = network['type']
-		chain = network['chain']
-		network["chainId"] = config['chainIds'][network_type][chain]
+			# Convert type and chain to chainId
+			network_type = network['type']
+			chain = network['chain']
+			network["chainId"] = config['chainIds'][network_type][chain]
 
-		if network_type == "fuel" and network.get('assetId') is None:
-			generate_fuel_network_config(converted_asset, chain, network)
+			if network_type == "fuel" and network.get('assetId') is None:
+				generate_fuel_network_config(converted_asset, chain, network)
 
-	# clean up `chain` after all processing is done
-	for network in converted_asset["networks"]:
-		# And remove chainPath
-		del network['chain']
+		# write out the local version
+		local_data.append(deepcopy(converted_asset))
 
-	# write out the local version
-	local_data.append(deepcopy(converted_asset))
+		# Update the icon to use the proper full cdn path
+		converted_asset['icon'] = config['cdn']['icon'] + converted_asset['icon']
+		cdn_data.append(converted_asset)
 
-	# Update the icon to use the proper full cdn path
-	converted_asset['icon'] = config['cdn']['icon'] + converted_asset['icon']
-	cdn_data.append(converted_asset)
+	# Compressed CDN output with full CDN URLs
+	with open('assets.local.gen.json', 'w') as f:
+		json.dump(local_data, f, separators=(',', ':'))
 
-with open('assets.local.gen.json', 'w') as f:
-	# use separators to minify output
-    json.dump(local_data, f, separators=(',', ':'))
+	# Compressed output for ZIP file
+	with open('assets.cdn.gen.json', 'w') as f:
+		json.dump(cdn_data, f, separators=(',', ':'))
 
-with open('assets.cdn.gen.json', 'w') as f:
-	# use separators to minify output
-    json.dump(cdn_data, f, separators=(',', ':'))
+	# Uncompressed output for repo
+	with open('assets.gen.json', 'w') as f:
+		json.dump(cdn_data, f, indent=2)
+
+	print('Asset file regenerated')
+
+if __name__ == "__main__":
+    generate_final_assets()

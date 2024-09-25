@@ -1,0 +1,55 @@
+name: Check Asset updates
+
+on:
+  push:
+    paths:
+      - 'assets.json'
+      - 'assets.gen.json'
+  pull_request:
+    paths:
+      - 'assets.json'
+      - 'assets.gen.json'
+
+jobs:
+  generate_assets_md:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Python requirements
+        run: pip install -r requirements.txt
+
+      - name: Regenerate asset JSON and markdown
+        run: |
+          python generate_assets_json.py
+          python generate_assets_md.py
+
+      - name: Check if assets.gen.json is up-to-date
+        run: |
+          git config --global --add safe.directory $GITHUB_WORKSPACE
+          if git diff --exit-code assets.gen.json; then
+            echo "assets.gen.json is up-to-date."
+          else
+            echo "assets.gen.json is not up-to-date with assets.json."
+            echo "Please run generate_assets_json.py and commit the changes to assets.gen.json."
+            exit 1
+          fi
+
+      - name: Check if assets.md is up-to-date
+        run: |
+          git config --global --add safe.directory $GITHUB_WORKSPACE
+          if git diff --exit-code assets.md; then
+            echo "assets.md is up-to-date."
+          else
+            echo "assets.md is not up-to-date with assets.json."
+            echo "Please run generate_assets_md.py and commit the changes to assets.md."
+            exit 1
+          fi

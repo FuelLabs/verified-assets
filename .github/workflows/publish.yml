@@ -36,7 +36,7 @@ jobs:
           python-version: '3.12'
           cache: 'pip'
 
-      - name: Install s3cmd tool
+      - name: Install Python requirements
         run: pip install -r requirements.txt
 
       - name: Generate assets JSON
