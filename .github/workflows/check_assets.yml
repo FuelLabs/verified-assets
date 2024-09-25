@@ -5,6 +5,7 @@ on:
     paths:
       - 'assets.json'
       - 'assets.gen.json'
+      - 'ASSETS.md'
 
 jobs:
   check_generated_files:
