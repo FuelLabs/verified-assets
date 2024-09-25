@@ -7,7 +7,7 @@ on:
       - 'assets.gen.json'
 
 jobs:
-  generate_assets_md:
+  check_generated_files:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,8 +25,8 @@ jobs:
 
       - name: Regenerate asset JSON and markdown
         run: |
-          python generate_assets_json.py
-          python generate_assets_md.py
+          python create_assets_json.py
+          python create_assets_md.py
 
       - name: Check if assets.gen.json is up-to-date
         run: |
@@ -35,7 +35,7 @@ jobs:
             echo "assets.gen.json is up-to-date."
           else
             echo "assets.gen.json is not up-to-date with assets.json."
-            echo "Please run generate_assets_json.py and commit the changes to assets.gen.json."
+            echo "Please run create_assets_json.py and commit the changes to assets.gen.json."
             exit 1
           fi
 
@@ -46,6 +46,6 @@ jobs:
             echo "assets.md is up-to-date."
           else
             echo "assets.md is not up-to-date with assets.json."
-            echo "Please run generate_assets_md.py and commit the changes to assets.md."
+            echo "Please run create_assets_md.py and commit the changes to assets.md."
             exit 1
           fi
