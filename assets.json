@@ -550,5 +550,18 @@
                 "decimals": 9
             }
         ]
+    },
+    {
+        "name": "USDF",
+        "symbol": "USDF",
+        "icon": "images/USDF.png",
+        "networks": [
+            {
+                "type": "fuel",
+                "chain": "mainnet",
+                "assetId": "0x33a6d90877f12c7954cca6d65587c25e9214c7bed2231c188981c7114c1bdb78",
+                "decimals": 9
+            }
+        ]
     }
 ]
