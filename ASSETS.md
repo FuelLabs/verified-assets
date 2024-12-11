@@ -3,6 +3,7 @@
 | Name | Address | Decimals |
 |------|---------|----------|
 | `Ethereum` |  | `18` |
+| `Fuel` | [`0x675b68aa4d9c2d3bb3f0397048e62e6b7192079c`](https://sepolia.etherscan.io/address/0x675b68aa4d9c2d3bb3f0397048e62e6b7192079c) | `9` |
 | `USDC` | [`0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238`](https://sepolia.etherscan.io/address/0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238) | `6` |
 | `USDe` | [`0xc6387efad0f184a90b34f397c3d6fd63135ef790`](https://sepolia.etherscan.io/address/0xc6387efad0f184a90b34f397c3d6fd63135ef790) | `18` |
 | `sUSDe` | [`0xb8f4f4eafc1d2a3c0a4d519bbf1114c311cc9b1b`](https://sepolia.etherscan.io/address/0xb8f4f4eafc1d2a3c0a4d519bbf1114c311cc9b1b) | `18` |
@@ -19,6 +20,7 @@
 | Name | Address | Decimals |
 |------|---------|----------|
 | `Ethereum` |  | `18` |
+| `Fuel` | [`0x675b68aa4d9c2d3bb3f0397048e62e6b7192079c`](https://etherscan.io/address/0x675b68aa4d9c2d3bb3f0397048e62e6b7192079c) | `9` |
 | `WETH` | [`0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2`](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2) | `18` |
 | `weETH` | [`0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee`](https://etherscan.io/address/0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee) | `18` |
 | `rsETH` | [`0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7`](https://etherscan.io/address/0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7) | `18` |
@@ -51,12 +53,14 @@
 | Name | Asset ID | Contract Address | Decimals |
 |------|----------|------------------|----------|
 | `Ethereum` | `0xf8f8b6283d7fa5b672b530cbb84fcccb4ff8dc40f8176ef4544ddb1f1952ad07` |  | `9` |
+| `Fuel` | `0xfe0ab1771da7837fdc4865c156094d34e042521c6498e1429975503a28ce625c` | `0x12f300d6d2b286dd5d290b709e0d3d73acc23c87ec10d349d4386b9524d740a1` | `9` |
 
 ## Fuel Testnet
 
 | Name | Asset ID | Contract Address | Decimals |
 |------|----------|------------------|----------|
 | `Ethereum` | `0xf8f8b6283d7fa5b672b530cbb84fcccb4ff8dc40f8176ef4544ddb1f1952ad07` |  | `9` |
+| `Fuel` | `0x4808a6b98d1f74235b9826226792d9d9b2e5faba46f6c44f2a1c356e24ee3d44` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |
 | `USDC` | `0xc26c91055de37528492e7e97d91c6f4abe34aae26f2c4d25cff6bfe45b5dc9a9` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `6` |
 | `USDe` | `0x86a1beb50c844f5eff9afd21af514a13327c93f76edb89333af862f70040b107` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |
 | `sUSDe` | `0xd2886b34454e2e0de47a82d8e6314b26e1e1312519247e8e2ef137672a909aeb` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |
@@ -67,6 +71,7 @@
 | Name | Asset ID | Contract Address | Decimals |
 |------|----------|------------------|----------|
 | `Ethereum` | `0xf8f8b6283d7fa5b672b530cbb84fcccb4ff8dc40f8176ef4544ddb1f1952ad07` |  | `9` |
+| `Fuel` | `0x1d5d97005e41cae2187a895fd8eab0506111e0e2f3331cd3912c15c24e3c1d82` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
 | `WETH` | `0xa38a5a8beeb08d95744bc7f58528073f4052b254def59eba20c99c202b5acaa3` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
 | `weETH` | `0x239ed6e12b7ce4089ee245244e3bf906999a6429c2a9a445a1e1faf56914a4ab` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
 | `rsETH` | `0xbae80f7fb8aa6b90d9b01ef726ec847cc4f59419c4d5f2ea88fec785d1b0e849` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |

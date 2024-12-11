@@ -40,6 +40,40 @@
         ]
     },
     {
+        "name": "Fuel",
+        "symbol": "FUEL",
+        "icon": "images/fuel.svg",
+        "networks": [
+            {
+                "type": "ethereum",
+                "chain": "sepolia",
+                "address": "0x675b68aa4d9c2d3bb3f0397048e62e6b7192079c",
+                "decimals": 9
+            },
+            {
+                "type": "ethereum",
+                "chain": "mainnet",
+                "address": "0x675b68aa4d9c2d3bb3f0397048e62e6b7192079c",
+                "decimals": 9
+            },
+            {
+                "type": "fuel",
+                "chain": "devnet",
+                "decimals": 9
+            },
+            {
+                "type": "fuel",
+                "chain": "testnet",
+                "decimals": 9
+            },
+            {
+                "type": "fuel",
+                "chain": "mainnet",
+                "decimals": 9
+            }
+        ]
+    },
+    {
         "name": "WETH",
         "symbol": "WETH",
         "icon": "images/weth.svg",

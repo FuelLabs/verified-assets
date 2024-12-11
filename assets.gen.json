@@ -46,6 +46,54 @@
     ]
   },
   {
+    "name": "Fuel",
+    "symbol": "FUEL",
+    "icon": "images/fuel.svg",
+    "networks": [
+      {
+        "type": "ethereum",
+        "chain": "sepolia",
+        "address": "0x675b68aa4d9c2d3bb3f0397048e62e6b7192079c",
+        "decimals": 9,
+        "chainId": 11155111
+      },
+      {
+        "type": "ethereum",
+        "chain": "mainnet",
+        "address": "0x675b68aa4d9c2d3bb3f0397048e62e6b7192079c",
+        "decimals": 9,
+        "chainId": 1
+      },
+      {
+        "type": "fuel",
+        "chain": "devnet",
+        "decimals": 9,
+        "chainId": 0,
+        "contractId": "0x12f300d6d2b286dd5d290b709e0d3d73acc23c87ec10d349d4386b9524d740a1",
+        "subId": "0xe81c89b8cf795c7c25e79f6c4f2f1cd233290b58e217ed4e9b6b18538badddaf",
+        "assetId": "0xfe0ab1771da7837fdc4865c156094d34e042521c6498e1429975503a28ce625c"
+      },
+      {
+        "type": "fuel",
+        "chain": "testnet",
+        "decimals": 9,
+        "chainId": 0,
+        "contractId": "0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471",
+        "subId": "0xe81c89b8cf795c7c25e79f6c4f2f1cd233290b58e217ed4e9b6b18538badddaf",
+        "assetId": "0x4808a6b98d1f74235b9826226792d9d9b2e5faba46f6c44f2a1c356e24ee3d44"
+      },
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "decimals": 9,
+        "chainId": 9889,
+        "contractId": "0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8",
+        "subId": "0xe81c89b8cf795c7c25e79f6c4f2f1cd233290b58e217ed4e9b6b18538badddaf",
+        "assetId": "0x1d5d97005e41cae2187a895fd8eab0506111e0e2f3331cd3912c15c24e3c1d82"
+      }
+    ]
+  },
+  {
     "name": "WETH",
     "symbol": "WETH",
     "icon": "images/weth.svg",
