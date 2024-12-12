@@ -53,7 +53,6 @@
 | Name | Asset ID | Contract Address | Decimals |
 |------|----------|------------------|----------|
 | `Ethereum` | `0xf8f8b6283d7fa5b672b530cbb84fcccb4ff8dc40f8176ef4544ddb1f1952ad07` |  | `9` |
-| `Fuel` | `0xefa202b5db2650dd0675bc9ad102e6fa2307f45a3bcc0b4da946d46d360bde70` | `0x12f300d6d2b286dd5d290b709e0d3d73acc23c87ec10d349d4386b9524d740a1` | `9` |
 
 ## Fuel Testnet
 

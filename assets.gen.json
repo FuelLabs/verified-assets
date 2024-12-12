@@ -66,15 +66,6 @@
       },
       {
         "type": "fuel",
-        "chain": "devnet",
-        "decimals": 9,
-        "chainId": 0,
-        "contractId": "0x12f300d6d2b286dd5d290b709e0d3d73acc23c87ec10d349d4386b9524d740a1",
-        "subId": "0xede43647e2aad1c0f1696201d6ba913aa67c917c3ac9a4a7d95662962ab25c5b",
-        "assetId": "0xefa202b5db2650dd0675bc9ad102e6fa2307f45a3bcc0b4da946d46d360bde70"
-      },
-      {
-        "type": "fuel",
         "chain": "testnet",
         "decimals": 9,
         "chainId": 0,

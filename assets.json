@@ -58,11 +58,6 @@
             },
             {
                 "type": "fuel",
-                "chain": "devnet",
-                "decimals": 9
-            },
-            {
-                "type": "fuel",
                 "chain": "testnet",
                 "decimals": 9
             },
