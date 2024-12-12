@@ -47,7 +47,7 @@
             {
                 "type": "ethereum",
                 "chain": "sepolia",
-                "address": "0x675b68aa4d9c2d3bb3f0397048e62e6b7192079c",
+                "address": "0xd7fc4e8fb2c05567c313f4c9b9e07641a361a550",
                 "decimals": 9
             },
             {

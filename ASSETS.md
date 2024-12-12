@@ -3,7 +3,7 @@
 | Name | Address | Decimals |
 |------|---------|----------|
 | `Ethereum` |  | `18` |
-| `Fuel` | [`0x675b68aa4d9c2d3bb3f0397048e62e6b7192079c`](https://sepolia.etherscan.io/address/0x675b68aa4d9c2d3bb3f0397048e62e6b7192079c) | `9` |
+| `Fuel` | [`0xd7fc4e8fb2c05567c313f4c9b9e07641a361a550`](https://sepolia.etherscan.io/address/0xd7fc4e8fb2c05567c313f4c9b9e07641a361a550) | `9` |
 | `USDC` | [`0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238`](https://sepolia.etherscan.io/address/0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238) | `6` |
 | `USDe` | [`0xc6387efad0f184a90b34f397c3d6fd63135ef790`](https://sepolia.etherscan.io/address/0xc6387efad0f184a90b34f397c3d6fd63135ef790) | `18` |
 | `sUSDe` | [`0xb8f4f4eafc1d2a3c0a4d519bbf1114c311cc9b1b`](https://sepolia.etherscan.io/address/0xb8f4f4eafc1d2a3c0a4d519bbf1114c311cc9b1b) | `18` |
@@ -53,14 +53,14 @@
 | Name | Asset ID | Contract Address | Decimals |
 |------|----------|------------------|----------|
 | `Ethereum` | `0xf8f8b6283d7fa5b672b530cbb84fcccb4ff8dc40f8176ef4544ddb1f1952ad07` |  | `9` |
-| `Fuel` | `0xfe0ab1771da7837fdc4865c156094d34e042521c6498e1429975503a28ce625c` | `0x12f300d6d2b286dd5d290b709e0d3d73acc23c87ec10d349d4386b9524d740a1` | `9` |
+| `Fuel` | `0xefa202b5db2650dd0675bc9ad102e6fa2307f45a3bcc0b4da946d46d360bde70` | `0x12f300d6d2b286dd5d290b709e0d3d73acc23c87ec10d349d4386b9524d740a1` | `9` |
 
 ## Fuel Testnet
 
 | Name | Asset ID | Contract Address | Decimals |
 |------|----------|------------------|----------|
 | `Ethereum` | `0xf8f8b6283d7fa5b672b530cbb84fcccb4ff8dc40f8176ef4544ddb1f1952ad07` |  | `9` |
-| `Fuel` | `0x4808a6b98d1f74235b9826226792d9d9b2e5faba46f6c44f2a1c356e24ee3d44` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |
+| `Fuel` | `0x324d0c35a4299ef88138a656d5272c5a3a9ccde2630ae055dacaf9d13443d53b` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |
 | `USDC` | `0xc26c91055de37528492e7e97d91c6f4abe34aae26f2c4d25cff6bfe45b5dc9a9` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `6` |
 | `USDe` | `0x86a1beb50c844f5eff9afd21af514a13327c93f76edb89333af862f70040b107` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |
 | `sUSDe` | `0xd2886b34454e2e0de47a82d8e6314b26e1e1312519247e8e2ef137672a909aeb` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |

@@ -53,7 +53,7 @@
       {
         "type": "ethereum",
         "chain": "sepolia",
-        "address": "0x675b68aa4d9c2d3bb3f0397048e62e6b7192079c",
+        "address": "0xd7fc4e8fb2c05567c313f4c9b9e07641a361a550",
         "decimals": 9,
         "chainId": 11155111
       },
@@ -70,8 +70,8 @@
         "decimals": 9,
         "chainId": 0,
         "contractId": "0x12f300d6d2b286dd5d290b709e0d3d73acc23c87ec10d349d4386b9524d740a1",
-        "subId": "0xe81c89b8cf795c7c25e79f6c4f2f1cd233290b58e217ed4e9b6b18538badddaf",
-        "assetId": "0xfe0ab1771da7837fdc4865c156094d34e042521c6498e1429975503a28ce625c"
+        "subId": "0xede43647e2aad1c0f1696201d6ba913aa67c917c3ac9a4a7d95662962ab25c5b",
+        "assetId": "0xefa202b5db2650dd0675bc9ad102e6fa2307f45a3bcc0b4da946d46d360bde70"
       },
       {
         "type": "fuel",
@@ -79,8 +79,8 @@
         "decimals": 9,
         "chainId": 0,
         "contractId": "0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471",
-        "subId": "0xe81c89b8cf795c7c25e79f6c4f2f1cd233290b58e217ed4e9b6b18538badddaf",
-        "assetId": "0x4808a6b98d1f74235b9826226792d9d9b2e5faba46f6c44f2a1c356e24ee3d44"
+        "subId": "0xede43647e2aad1c0f1696201d6ba913aa67c917c3ac9a4a7d95662962ab25c5b",
+        "assetId": "0x324d0c35a4299ef88138a656d5272c5a3a9ccde2630ae055dacaf9d13443d53b"
       },
       {
         "type": "fuel",
