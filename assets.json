@@ -592,5 +592,18 @@
                 "decimals": 9
             }
         ]
+    },
+    {
+        "name": "stFUEL",
+        "symbol": "stFUEL",
+        "icon": "images/stFUEL.png",
+        "networks": [
+            {
+                "type": "fuel",
+                "chain": "mainnet",
+                "assetId": "0x5505d0f58bea82a052bc51d2f67ab82e9735f0a98ca5d064ecb964b8fd30c474",
+                "decimals": 9
+            }
+        ]
     }
 ]
