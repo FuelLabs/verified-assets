@@ -701,9 +701,9 @@
             }, {
                 "type": "fuel",
                 "chain": "mainnet",
-                "contractId": "0x0e976ed4a12acfab1512799b370435f24e930ce08dc0372698a45534f57184f7",
+                "contractId": "0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504",
                 "subId": "0xd04028f798e9831acba65f305b4f69124a6178406d2188a7b995a6f7116acb20",
-                "assetId": "0xd6e5dd1eba8ebbe2812f1dc219742a3f49e0fa39fd2c9c7791e47cdf17a937ba",
+                "assetId": "0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6",
                 "decimals": 9
             }
         ]
