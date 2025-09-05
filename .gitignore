@@ -11,3 +11,4 @@
 *.gen.json
 !assets.gen.json
 *.zip
+venv

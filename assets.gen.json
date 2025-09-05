@@ -18,6 +18,18 @@
       },
       {
         "type": "ethereum",
+        "chain": "baseSepolia",
+        "decimals": 18,
+        "chainId": 84532
+      },
+      {
+        "type": "ethereum",
+        "chain": "base",
+        "decimals": 18,
+        "chainId": 8453
+      },
+      {
+        "type": "ethereum",
         "chain": "mainnet",
         "decimals": 18,
         "chainId": 1
@@ -56,6 +68,20 @@
         "address": "0xd7fc4e8fb2c05567c313f4c9b9e07641a361a550",
         "decimals": 9,
         "chainId": 11155111
+      },
+      {
+        "type": "ethereum",
+        "chain": "baseSepolia",
+        "address": "0xFeD784a1536A243d9c0Dd117c7e2CdD4b21046e0",
+        "decimals": 9,
+        "chainId": 84532
+      },
+      {
+        "type": "ethereum",
+        "chain": "base",
+        "address": "0xFdedBefEc262fE0eeaA2bbdE1afA2ef09AaB6634",
+        "decimals": 9,
+        "chainId": 8453
       },
       {
         "type": "ethereum",
@@ -495,6 +521,20 @@
         "chainId": 11155111
       },
       {
+        "type": "ethereum",
+        "chain": "base",
+        "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+        "decimals": 6,
+        "chainId": 8453
+      },
+      {
+        "type": "ethereum",
+        "chain": "baseSepolia",
+        "address": "0x036cbd53842c5426634e7929541ec2318f3dcf7e",
+        "decimals": 6,
+        "chainId": 84532
+      },
+      {
         "type": "fuel",
         "chain": "mainnet",
         "decimals": 6,
@@ -771,6 +811,81 @@
         "contractId": "0x2181f1b8e00756672515807cab7de10c70a9b472a4a9b1b6ca921435b0a1f49b",
         "subId": "0x0000000000000000000000000000000000000000000000000000000000000000",
         "assetId": "0x5505d0f58bea82a052bc51d2f67ab82e9735f0a98ca5d064ecb964b8fd30c474",
+        "decimals": 9,
+        "chainId": 9889
+      }
+    ]
+  },
+  {
+    "name": "uwFUEL",
+    "symbol": "uwFUEL",
+    "icon": "images/fuel.svg",
+    "networks": [
+      {
+        "type": "fuel",
+        "chain": "testnet",
+        "contractId": "0x0e976ed4a12acfab1512799b370435f24e930ce08dc0372698a45534f57184f7",
+        "subId": "0xf01543451de5025f12a2ba3fd384c66d070bfc32216d9de8d3ade73416f20e5b",
+        "assetId": "0x96e0ba983a6991d3ba93cac9d939a4a7b17dacccc904e5af3ffd6918b24e1a96",
+        "decimals": 9,
+        "chainId": 0
+      },
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "contractId": "0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504",
+        "subId": "0xf01543451de5025f12a2ba3fd384c66d070bfc32216d9de8d3ade73416f20e5b",
+        "assetId": "0x27821a5432b60fb3e70c64d0a612c2c86218c1088dd0f0f1b0dd6ae5ae17bd5b",
+        "decimals": 9,
+        "chainId": 9889
+      }
+    ]
+  },
+  {
+    "name": "uwETH",
+    "symbol": "uwETH",
+    "icon": "images/eth.svg",
+    "networks": [
+      {
+        "type": "fuel",
+        "chain": "testnet",
+        "contractId": "0x0e976ed4a12acfab1512799b370435f24e930ce08dc0372698a45534f57184f7",
+        "subId": "0xcc4382fcbcf1051e52cffbe62d1bed264936700d9a4b5f10a3581c04ce349bde",
+        "assetId": "0x6b60e2728055ed4cffa9e76e9e069e9b7cc687dba2f290deb0db9857ab0667b1",
+        "decimals": 9,
+        "chainId": 0
+      },
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "contractId": "0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504",
+        "subId": "0xcc4382fcbcf1051e52cffbe62d1bed264936700d9a4b5f10a3581c04ce349bde",
+        "assetId": "0xac2aabc1c48e634800a723b1372388ad1eb6a23d0e012cde4c603082fb1a140a",
+        "decimals": 9,
+        "chainId": 9889
+      }
+    ]
+  },
+  {
+    "name": "uwUSDC",
+    "symbol": "uwUSDC",
+    "icon": "images/usdc.svg",
+    "networks": [
+      {
+        "type": "fuel",
+        "chain": "testnet",
+        "contractId": "0x0e976ed4a12acfab1512799b370435f24e930ce08dc0372698a45534f57184f7",
+        "subId": "0xd04028f798e9831acba65f305b4f69124a6178406d2188a7b995a6f7116acb20",
+        "assetId": "0xd6e5dd1eba8ebbe2812f1dc219742a3f49e0fa39fd2c9c7791e47cdf17a937ba",
+        "decimals": 9,
+        "chainId": 0
+      },
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "contractId": "0x0e976ed4a12acfab1512799b370435f24e930ce08dc0372698a45534f57184f7",
+        "subId": "0xd04028f798e9831acba65f305b4f69124a6178406d2188a7b995a6f7116acb20",
+        "assetId": "0xd6e5dd1eba8ebbe2812f1dc219742a3f49e0fa39fd2c9c7791e47cdf17a937ba",
         "decimals": 9,
         "chainId": 9889
       }

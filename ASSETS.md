@@ -15,6 +15,22 @@
 |------|---------|----------|
 | `Ethereum` |  | `18` |
 
+## Ethereum baseSepolia
+
+| Name | Address | Decimals |
+|------|---------|----------|
+| `Ethereum` |  | `18` |
+| `Fuel` | [`0xFeD784a1536A243d9c0Dd117c7e2CdD4b21046e0`](https://etherscan.io/address/0xFeD784a1536A243d9c0Dd117c7e2CdD4b21046e0) | `9` |
+| `USDC` | [`0x036cbd53842c5426634e7929541ec2318f3dcf7e`](https://etherscan.io/address/0x036cbd53842c5426634e7929541ec2318f3dcf7e) | `6` |
+
+## Ethereum base
+
+| Name | Address | Decimals |
+|------|---------|----------|
+| `Ethereum` |  | `18` |
+| `Fuel` | [`0xFdedBefEc262fE0eeaA2bbdE1afA2ef09AaB6634`](https://etherscan.io/address/0xFdedBefEc262fE0eeaA2bbdE1afA2ef09AaB6634) | `9` |
+| `USDC` | [`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`](https://etherscan.io/address/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913) | `6` |
+
 ## Ethereum L1
 
 | Name | Address | Decimals |
@@ -64,6 +80,9 @@
 | `USDe` | `0x86a1beb50c844f5eff9afd21af514a13327c93f76edb89333af862f70040b107` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |
 | `sUSDe` | `0xd2886b34454e2e0de47a82d8e6314b26e1e1312519247e8e2ef137672a909aeb` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |
 | `wstETH` | `0xb42cd9ddf61898da1701adb3a003b0cf4ca6df7b5fe490ec2c295b1ca43b33c8` | `0xd02112ef9c39f1cea7c8527c26242ca1f5d26bcfe8d1564bee054d3b04175471` | `9` |
+| `uwFUEL` | `0x96e0ba983a6991d3ba93cac9d939a4a7b17dacccc904e5af3ffd6918b24e1a96` | `0x0e976ed4a12acfab1512799b370435f24e930ce08dc0372698a45534f57184f7` | `9` |
+| `uwETH` | `0x6b60e2728055ed4cffa9e76e9e069e9b7cc687dba2f290deb0db9857ab0667b1` | `0x0e976ed4a12acfab1512799b370435f24e930ce08dc0372698a45534f57184f7` | `9` |
+| `uwUSDC` | `0xd6e5dd1eba8ebbe2812f1dc219742a3f49e0fa39fd2c9c7791e47cdf17a937ba` | `0x0e976ed4a12acfab1512799b370435f24e930ce08dc0372698a45534f57184f7` | `9` |
 
 ## Fuel Mainnet
 
@@ -99,4 +118,7 @@
 | `steakLRT` | `0x4fc8ac9f101df07e2c2dec4a53c8c42c439bdbe5e36ea2d863a61ff60afafc30` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
 | `USDF` | `0x33a6d90877f12c7954cca6d65587c25e9214c7bed2231c188981c7114c1bdb78` |  | `9` |
 | `stFUEL` | `0x5505d0f58bea82a052bc51d2f67ab82e9735f0a98ca5d064ecb964b8fd30c474` | `0x2181f1b8e00756672515807cab7de10c70a9b472a4a9b1b6ca921435b0a1f49b` | `9` |
+| `uwFUEL` | `0x27821a5432b60fb3e70c64d0a612c2c86218c1088dd0f0f1b0dd6ae5ae17bd5b` | `0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504` | `9` |
+| `uwETH` | `0xac2aabc1c48e634800a723b1372388ad1eb6a23d0e012cde4c603082fb1a140a` | `0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504` | `9` |
+| `uwUSDC` | `0xd6e5dd1eba8ebbe2812f1dc219742a3f49e0fa39fd2c9c7791e47cdf17a937ba` | `0x0e976ed4a12acfab1512799b370435f24e930ce08dc0372698a45534f57184f7` | `9` |
 

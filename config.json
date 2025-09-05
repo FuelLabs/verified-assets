@@ -3,7 +3,9 @@
     "ethereum": {
       "mainnet": 1,
       "sepolia": 11155111,
-      "foundry": 31337
+      "foundry": 31337,
+      "base": 8453,
+      "baseSepolia": 84532
     },
     "fuel": {
       "devnet": 0,
