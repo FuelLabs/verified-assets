@@ -817,6 +817,45 @@
     ]
   },
   {
+    "name": "MOOR",
+    "symbol": "MOOR",
+    "icon": "images/MOOR.png",
+    "networks": [
+      {
+        "type": "ethereum",
+        "chain": "mainnet",
+        "address": "0xfc280b8e8c2e574b99d63e29c75872737575c594",
+        "decimals": 18,
+        "chainId": 1
+      },
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "contractId": "0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8",
+        "decimals": 9,
+        "chainId": 9889,
+        "subId": "0xb1dfd2c2390e7fd24e1f93f370b346533318a443ebd228b319fccb0b63ad3bea",
+        "assetId": "0xa9d7987a3f2c2fb02b287c3a2ef619046e930848c6050d31efef48ad6d3bdee8"
+      }
+    ]
+  },
+  {
+    "name": "USDM",
+    "symbol": "USDM",
+    "icon": "images/USDM.png",
+    "networks": [
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "contractId": "0x9373f5ff5ef3b5aaafa5d026cf53c8c83e83e5d5d8af66b22e68bd21fa27c8bf",
+        "subId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "assetId": "0x0e9bdca5d5d53f65f2e8d3ecfb9accb5cb2c56e5beff5793de51e854a2c25234",
+        "decimals": 9,
+        "chainId": 9889
+      }
+    ]
+  },
+  {
     "name": "uwFUEL",
     "symbol": "uwFUEL",
     "icon": "images/fuel.svg",
