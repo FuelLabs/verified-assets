@@ -657,7 +657,7 @@
             "type": "fuel",
             "chain": "mainnet",
             "contractId": "0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8",
-            "subId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "subId": "0xb1dfd2c2390e7fd24e1f93f370b346533318a443ebd228b319fccb0b63ad3bea",
             "assetId": "0xa9d7987a3f2c2fb02b287c3a2ef619046e930848c6050d31efef48ad6d3bdee8",
             "decimals": 9
         }
