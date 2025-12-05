@@ -929,5 +929,30 @@
         "chainId": 9889
       }
     ]
+  },
+  {
+    "name": "uwUSDT",
+    "symbol": "uwUSDT",
+    "icon": "images/usdt.svg",
+    "networks": [
+      {
+        "type": "fuel",
+        "chain": "testnet",
+        "contractId": "0x0e976ed4a12acfab1512799b370435f24e930ce08dc0372698a45534f57184f7",
+        "subId": "0xee7cab61214bb433609a1a56ec8005dc6cb223cfc27d0cd09410798bb672d407",
+        "assetId": "0x3a1ccec3c590e11a7b0da8bd437bca134747ee15597892167c0304829a93b8a8",
+        "decimals": 9,
+        "chainId": 0
+      },
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "contractId": "0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504",
+        "subId": "0xee7cab61214bb433609a1a56ec8005dc6cb223cfc27d0cd09410798bb672d407",
+        "assetId": "0x2269aa41cf3982753d978a40e0f04618ff9d84b07d1ce10e99831e3217d3a9b0",
+        "decimals": 9,
+        "chainId": 9889
+      }
+    ]
   }
 ]
