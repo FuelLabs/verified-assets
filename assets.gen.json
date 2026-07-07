@@ -555,6 +555,21 @@
     ]
   },
   {
+    "name": "Tether Gold",
+    "symbol": "XAUT",
+    "icon": "images/XAUT.png",
+    "networks": [
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "contractId": "0xf31cc3a2fdef150bcef1b94bee2125e20e941380031ab0a6ced3fbfd92fceee6",
+        "assetId": "0xe3c3f7a37f9c5c03cc1f2278373487fff96126638699d2f873baafb3ba8f3dd0",
+        "decimals": 9,
+        "chainId": 9889
+      }
+    ]
+  },
+  {
     "name": "USDe",
     "symbol": "USDe",
     "icon": "images/USDe.svg",
