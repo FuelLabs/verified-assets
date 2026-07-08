@@ -555,8 +555,8 @@
     ]
   },
   {
-    "name": "Tether Gold",
-    "symbol": "XAUT",
+    "name": "uwXAUT",
+    "symbol": "uwXAUT",
     "icon": "images/XAUT.png",
     "networks": [
       {
