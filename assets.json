@@ -438,6 +438,39 @@
         ]
     },
     {
+        "name": "Tether Gold",
+        "symbol": "XAUT",
+        "icon": "images/XAUT.png",
+        "networks": [
+            {
+                "type": "ethereum",
+                "chain": "mainnet",
+                "address": "0x68749665FF8D2d112Fa859AA293F07A622782F38",
+                "decimals": 6
+            },
+            {
+                "type": "fuel",
+                "chain": "mainnet",
+                "decimals": 6
+            }
+        ]
+    },
+    {
+        "name": "uwXAUT",
+        "symbol": "uwXAUT",
+        "icon": "images/XAUT.png",
+        "networks": [
+            {
+                "type": "fuel",
+                "chain": "mainnet",
+                "contractId": "0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504",
+                "subId": "0x0ddb8ebd03e0dd8e0419e96c14a113a10f4592a3518cd84170d669e19ccdfc7c",
+                "assetId": "0xe3c3f7a37f9c5c03cc1f2278373487fff96126638699d2f873baafb3ba8f3dd0",
+                "decimals": 9
+            }
+        ]
+    },
+    {
         "name": "USDe",
         "symbol": "USDe",
         "icon": "images/USDe.svg",
