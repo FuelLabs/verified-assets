@@ -84,6 +84,10 @@ def generate_markdown():
                     etherscan_base = 'https://etherscan.io'
                 elif chain_lower == 'sepolia':
                     etherscan_base = 'https://sepolia.etherscan.io'
+                elif chain_lower == 'base':
+                    etherscan_base = 'https://basescan.org'
+                elif chain_lower == 'basesepolia':
+                    etherscan_base = 'https://sepolia.basescan.org'
                 else:
                     etherscan_base = 'https://etherscan.io'
                 address_md = f"[`{address}`]({etherscan_base}/address/{address})"

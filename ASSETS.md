@@ -20,17 +20,17 @@
 | Name | Address | Decimals |
 |------|---------|----------|
 | `Ethereum` |  | `18` |
-| `Fuel` | [`0xFeD784a1536A243d9c0Dd117c7e2CdD4b21046e0`](https://etherscan.io/address/0xFeD784a1536A243d9c0Dd117c7e2CdD4b21046e0) | `9` |
-| `USDC` | [`0x036cbd53842c5426634e7929541ec2318f3dcf7e`](https://etherscan.io/address/0x036cbd53842c5426634e7929541ec2318f3dcf7e) | `6` |
+| `Fuel` | [`0xFeD784a1536A243d9c0Dd117c7e2CdD4b21046e0`](https://sepolia.basescan.org/address/0xFeD784a1536A243d9c0Dd117c7e2CdD4b21046e0) | `9` |
+| `USDC` | [`0x036cbd53842c5426634e7929541ec2318f3dcf7e`](https://sepolia.basescan.org/address/0x036cbd53842c5426634e7929541ec2318f3dcf7e) | `6` |
 
 ## Ethereum base
 
 | Name | Address | Decimals |
 |------|---------|----------|
 | `Ethereum` |  | `18` |
-| `Fuel` | [`0xFdedBefEc262fE0eeaA2bbdE1afA2ef09AaB6634`](https://etherscan.io/address/0xFdedBefEc262fE0eeaA2bbdE1afA2ef09AaB6634) | `9` |
-| `USDC` | [`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`](https://etherscan.io/address/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913) | `6` |
-| `Venice Token` | [`0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf`](https://etherscan.io/address/0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf) | `18` |
+| `Fuel` | [`0xFdedBefEc262fE0eeaA2bbdE1afA2ef09AaB6634`](https://basescan.org/address/0xFdedBefEc262fE0eeaA2bbdE1afA2ef09AaB6634) | `9` |
+| `USDC` | [`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`](https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913) | `6` |
+| `Venice Token` | [`0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf`](https://basescan.org/address/0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf) | `18` |
 
 ## Ethereum L1
 
