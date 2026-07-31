@@ -20,16 +20,17 @@
 | Name | Address | Decimals |
 |------|---------|----------|
 | `Ethereum` |  | `18` |
-| `Fuel` | [`0xFeD784a1536A243d9c0Dd117c7e2CdD4b21046e0`](https://etherscan.io/address/0xFeD784a1536A243d9c0Dd117c7e2CdD4b21046e0) | `9` |
-| `USDC` | [`0x036cbd53842c5426634e7929541ec2318f3dcf7e`](https://etherscan.io/address/0x036cbd53842c5426634e7929541ec2318f3dcf7e) | `6` |
+| `Fuel` | [`0xFeD784a1536A243d9c0Dd117c7e2CdD4b21046e0`](https://sepolia.basescan.org/address/0xFeD784a1536A243d9c0Dd117c7e2CdD4b21046e0) | `9` |
+| `USDC` | [`0x036cbd53842c5426634e7929541ec2318f3dcf7e`](https://sepolia.basescan.org/address/0x036cbd53842c5426634e7929541ec2318f3dcf7e) | `6` |
 
 ## Ethereum base
 
 | Name | Address | Decimals |
 |------|---------|----------|
 | `Ethereum` |  | `18` |
-| `Fuel` | [`0xFdedBefEc262fE0eeaA2bbdE1afA2ef09AaB6634`](https://etherscan.io/address/0xFdedBefEc262fE0eeaA2bbdE1afA2ef09AaB6634) | `9` |
-| `USDC` | [`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`](https://etherscan.io/address/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913) | `6` |
+| `Fuel` | [`0xFdedBefEc262fE0eeaA2bbdE1afA2ef09AaB6634`](https://basescan.org/address/0xFdedBefEc262fE0eeaA2bbdE1afA2ef09AaB6634) | `9` |
+| `USDC` | [`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`](https://basescan.org/address/0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913) | `6` |
+| `Venice Token` | [`0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf`](https://basescan.org/address/0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf) | `18` |
 
 ## Ethereum L1
 
@@ -65,6 +66,13 @@
 | `Re7LRT` | [`0x84631c0d0081FDe56DeB72F6DE77abBbF6A9f93a`](https://etherscan.io/address/0x84631c0d0081FDe56DeB72F6DE77abBbF6A9f93a) | `18` |
 | `steakLRT` | [`0xBEEF69Ac7870777598A04B2bd4771c71212E6aBc`](https://etherscan.io/address/0xBEEF69Ac7870777598A04B2bd4771c71212E6aBc) | `18` |
 | `MOOR` | [`0xfc280b8e8c2e574b99d63e29c75872737575c594`](https://etherscan.io/address/0xfc280b8e8c2e574b99d63e29c75872737575c594) | `18` |
+| `Uniswap` | [`0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984`](https://etherscan.io/address/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984) | `18` |
+| `Aave` | [`0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9`](https://etherscan.io/address/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9) | `18` |
+| `Chainlink` | [`0x514910771AF9Ca656af840dff83E8264EcF986CA`](https://etherscan.io/address/0x514910771AF9Ca656af840dff83E8264EcF986CA) | `18` |
+| `Ondo` | [`0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3`](https://etherscan.io/address/0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3) | `18` |
+| `Ethena` | [`0x57e114B691Db790C35207b2e685D4A43181e6061`](https://etherscan.io/address/0x57e114B691Db790C35207b2e685D4A43181e6061) | `18` |
+| `PayPal USD` | [`0x6c3ea9036406852006290770BEdFcAbA0e23A0e8`](https://etherscan.io/address/0x6c3ea9036406852006290770BEdFcAbA0e23A0e8) | `6` |
+| `Worldcoin` | [`0x163f8C2467924be0ae7B5347228CABF260318753`](https://etherscan.io/address/0x163f8C2467924be0ae7B5347228CABF260318753) | `18` |
 
 ## Fuel Devnet
 
@@ -129,4 +137,19 @@
 | `uwETH` | `0xac2aabc1c48e634800a723b1372388ad1eb6a23d0e012cde4c603082fb1a140a` | `0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504` | `9` |
 | `uwUSDC` | `0x6c91bc65f585da1a238f8ec5e410e62616d2b2c8f2cb4701e225deb51240add6` | `0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504` | `9` |
 | `uwUSDT` | `0x2269aa41cf3982753d978a40e0f04618ff9d84b07d1ce10e99831e3217d3a9b0` | `0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504` | `9` |
+| `Uniswap` | `0x12904b62247f9e71f7f5b0d392909a9825ad810e7b8c8b8ef345f449eca00e63` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
+| `uwUNI` | `0xcfcb8e2c50c39147a6aad0885f1a08d3c7b9a3ca62997fd580d37ca10aecc1bb` | `0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504` | `9` |
+| `Aave` | `0x59f82f6f2c8e6f7b5afaabc90cb6d42cfbd1976c0fe00f977df03ece73b525af` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
+| `uwAAVE` | `0x13f4be131ce4a5cdee7ab0de0967f9da1168d1972fd202549bc5c22e24092b30` | `0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504` | `9` |
+| `Chainlink` | `0x9999650765aedd857d1f7a7165877189ec1dcd8eb3e659f5f6447dd2d0b7671a` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
+| `uwLINK` | `0x7ebf0913cc3cf93cd4a05bbdfc209de6805284f3e3262d0a6bd0ab75c64ebf58` | `0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504` | `9` |
+| `Ondo` | `0xa4384664d1b278eed8199b62a30b8762bc06fa2151ef63cf499d1864bec82542` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
+| `uwONDO` | `0xf2992fb8cf860c44577cc317cbefebfc75aaa17d17199b5fe5552e7df88ee166` | `0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504` | `9` |
+| `Ethena` | `0x1226600e94b5d04fbf9db12c4a98ac5f1267dd995f75f655f181c11245965c2e` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
+| `uwENA` | `0xdc9b17ba40a623c3184b3159be54da69f18bce239b05e094fb21a603d75c128c` | `0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504` | `9` |
+| `PayPal USD` | `0x261b37cdce3d40122e2cbc780a9a4b541f047d64d20a676cd85464edd39c328b` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `6` |
+| `uwPYUSD` | `0x65e788c0998164593ef504dc204533fc7c6bbe604da3fb9c5fb9a70949fb5715` | `0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504` | `9` |
+| `uwVVV` | `0x6f99581466e8aadbc749837d1fe063bf013b6d69980dfecf81cc00c648d2c55d` | `0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504` | `9` |
+| `Worldcoin` | `0xe47fd30577a41413ee78bd46a85fe5a61522f49bb655df45d29678b861bf8714` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
+| `uwWLD` | `0xef13df7d602c6a424ed6b1cb7de18eaed4397fa1eaf8eeb04db694ef2d709aea` | `0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504` | `9` |
 

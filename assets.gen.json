@@ -993,5 +993,308 @@
         "chainId": 9889
       }
     ]
+  },
+  {
+    "name": "Uniswap",
+    "symbol": "UNI",
+    "icon": "images/UNI.png",
+    "networks": [
+      {
+        "type": "ethereum",
+        "chain": "mainnet",
+        "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+        "decimals": 18,
+        "chainId": 1
+      },
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "decimals": 9,
+        "chainId": 9889,
+        "contractId": "0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8",
+        "subId": "0x906f23f157689c41f712348c2f5c178511926391cf18c436e42dda83183be952",
+        "assetId": "0x12904b62247f9e71f7f5b0d392909a9825ad810e7b8c8b8ef345f449eca00e63"
+      }
+    ]
+  },
+  {
+    "name": "uwUNI",
+    "symbol": "uwUNI",
+    "icon": "images/UNI.png",
+    "networks": [
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "contractId": "0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504",
+        "subId": "0x13cc6d3e55a31f1af1aef983647747a0a6aec1d4f11aacd1d2c8b4a193208d7d",
+        "assetId": "0xcfcb8e2c50c39147a6aad0885f1a08d3c7b9a3ca62997fd580d37ca10aecc1bb",
+        "decimals": 9,
+        "chainId": 9889
+      }
+    ]
+  },
+  {
+    "name": "Aave",
+    "symbol": "AAVE",
+    "icon": "images/AAVE.png",
+    "networks": [
+      {
+        "type": "ethereum",
+        "chain": "mainnet",
+        "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+        "decimals": 18,
+        "chainId": 1
+      },
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "decimals": 9,
+        "chainId": 9889,
+        "contractId": "0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8",
+        "subId": "0x943440992caad2e72245ec1ca3681db15d8249585b92c101ed5d635fdedfce1a",
+        "assetId": "0x59f82f6f2c8e6f7b5afaabc90cb6d42cfbd1976c0fe00f977df03ece73b525af"
+      }
+    ]
+  },
+  {
+    "name": "uwAAVE",
+    "symbol": "uwAAVE",
+    "icon": "images/AAVE.png",
+    "networks": [
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "contractId": "0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504",
+        "subId": "0x6c089b769324b93a92825afcbe3bd1ce24cf6225c7291e904b236ac76c84640e",
+        "assetId": "0x13f4be131ce4a5cdee7ab0de0967f9da1168d1972fd202549bc5c22e24092b30",
+        "decimals": 9,
+        "chainId": 9889
+      }
+    ]
+  },
+  {
+    "name": "Chainlink",
+    "symbol": "LINK",
+    "icon": "images/LINK.png",
+    "networks": [
+      {
+        "type": "ethereum",
+        "chain": "mainnet",
+        "address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+        "decimals": 18,
+        "chainId": 1
+      },
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "decimals": 9,
+        "chainId": 9889,
+        "contractId": "0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8",
+        "subId": "0x018b7ad988fb923df43bd70399a057a68de60521f3f5ffdde8602ec5c6a5e8d0",
+        "assetId": "0x9999650765aedd857d1f7a7165877189ec1dcd8eb3e659f5f6447dd2d0b7671a"
+      }
+    ]
+  },
+  {
+    "name": "uwLINK",
+    "symbol": "uwLINK",
+    "icon": "images/LINK.png",
+    "networks": [
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "contractId": "0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504",
+        "subId": "0x5d97c6a8e97ccdc54f8c6cc7bbc789228df52c426cda6824fe5a82bc74be2761",
+        "assetId": "0x7ebf0913cc3cf93cd4a05bbdfc209de6805284f3e3262d0a6bd0ab75c64ebf58",
+        "decimals": 9,
+        "chainId": 9889
+      }
+    ]
+  },
+  {
+    "name": "Ondo",
+    "symbol": "ONDO",
+    "icon": "images/ONDO.png",
+    "networks": [
+      {
+        "type": "ethereum",
+        "chain": "mainnet",
+        "address": "0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3",
+        "decimals": 18,
+        "chainId": 1
+      },
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "decimals": 9,
+        "chainId": 9889,
+        "contractId": "0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8",
+        "subId": "0xb9fa2fd59ca40bbe6d33d9a9ac44f49ccd717cf796e7049622f1db7049ca6e68",
+        "assetId": "0xa4384664d1b278eed8199b62a30b8762bc06fa2151ef63cf499d1864bec82542"
+      }
+    ]
+  },
+  {
+    "name": "uwONDO",
+    "symbol": "uwONDO",
+    "icon": "images/ONDO.png",
+    "networks": [
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "contractId": "0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504",
+        "subId": "0x34b47ce420dd920b2cc2ccdf30b233ca4d5b27f2f934321c183e935fff4a16dc",
+        "assetId": "0xf2992fb8cf860c44577cc317cbefebfc75aaa17d17199b5fe5552e7df88ee166",
+        "decimals": 9,
+        "chainId": 9889
+      }
+    ]
+  },
+  {
+    "name": "Ethena",
+    "symbol": "ENA",
+    "icon": "images/ENA.png",
+    "networks": [
+      {
+        "type": "ethereum",
+        "chain": "mainnet",
+        "address": "0x57e114B691Db790C35207b2e685D4A43181e6061",
+        "decimals": 18,
+        "chainId": 1
+      },
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "decimals": 9,
+        "chainId": 9889,
+        "contractId": "0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8",
+        "subId": "0x64b452cf415e0cd6867b94f6675c31a81431be577677749ae78b08f3eba0f261",
+        "assetId": "0x1226600e94b5d04fbf9db12c4a98ac5f1267dd995f75f655f181c11245965c2e"
+      }
+    ]
+  },
+  {
+    "name": "uwENA",
+    "symbol": "uwENA",
+    "icon": "images/ENA.png",
+    "networks": [
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "contractId": "0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504",
+        "subId": "0x2ef69dd142a8171420de78d3b3734f4b2eae7caf1f46794c7ee423f957642587",
+        "assetId": "0xdc9b17ba40a623c3184b3159be54da69f18bce239b05e094fb21a603d75c128c",
+        "decimals": 9,
+        "chainId": 9889
+      }
+    ]
+  },
+  {
+    "name": "PayPal USD",
+    "symbol": "PYUSD",
+    "icon": "images/PYUSD.png",
+    "networks": [
+      {
+        "type": "ethereum",
+        "chain": "mainnet",
+        "address": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8",
+        "decimals": 6,
+        "chainId": 1
+      },
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "decimals": 6,
+        "chainId": 9889,
+        "contractId": "0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8",
+        "subId": "0x805d8fd7eae1fcf27ac88635d391ff877017a90368a5b0d3fa153bcd22e17a66",
+        "assetId": "0x261b37cdce3d40122e2cbc780a9a4b541f047d64d20a676cd85464edd39c328b"
+      }
+    ]
+  },
+  {
+    "name": "uwPYUSD",
+    "symbol": "uwPYUSD",
+    "icon": "images/PYUSD.png",
+    "networks": [
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "contractId": "0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504",
+        "subId": "0x4779d7db92f88de5cba275582ae88b71f0ca2590b4e87b42d4f583f812aa4808",
+        "assetId": "0x65e788c0998164593ef504dc204533fc7c6bbe604da3fb9c5fb9a70949fb5715",
+        "decimals": 9,
+        "chainId": 9889
+      }
+    ]
+  },
+  {
+    "name": "Venice Token",
+    "symbol": "VVV",
+    "icon": "images/VVV.png",
+    "networks": [
+      {
+        "type": "ethereum",
+        "chain": "base",
+        "address": "0xacfE6019Ed1A7Dc6f7B508C02d1b04ec88cC21bf",
+        "decimals": 18,
+        "chainId": 8453
+      }
+    ]
+  },
+  {
+    "name": "uwVVV",
+    "symbol": "uwVVV",
+    "icon": "images/VVV.png",
+    "networks": [
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "contractId": "0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504",
+        "subId": "0x4075aaa98b6ac24e974680bc1522257021f52e956a8aa58ecf740f039891ce71",
+        "assetId": "0x6f99581466e8aadbc749837d1fe063bf013b6d69980dfecf81cc00c648d2c55d",
+        "decimals": 9,
+        "chainId": 9889
+      }
+    ]
+  },
+  {
+    "name": "Worldcoin",
+    "symbol": "WLD",
+    "icon": "images/WLD.png",
+    "networks": [
+      {
+        "type": "ethereum",
+        "chain": "mainnet",
+        "address": "0x163f8C2467924be0ae7B5347228CABF260318753",
+        "decimals": 18,
+        "chainId": 1
+      },
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "decimals": 9,
+        "chainId": 9889,
+        "contractId": "0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8",
+        "subId": "0xaeee3a1dec5cf1043e4a4cf5cff46aa092f29c5e078b5462e8a461e0c40559fb",
+        "assetId": "0xe47fd30577a41413ee78bd46a85fe5a61522f49bb655df45d29678b861bf8714"
+      }
+    ]
+  },
+  {
+    "name": "uwWLD",
+    "symbol": "uwWLD",
+    "icon": "images/WLD.png",
+    "networks": [
+      {
+        "type": "fuel",
+        "chain": "mainnet",
+        "contractId": "0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504",
+        "subId": "0x0911b0b4ab138c2750672d69217504be179df4190d152ab9f3c2221ee2ec0e89",
+        "assetId": "0xef13df7d602c6a424ed6b1cb7de18eaed4397fa1eaf8eeb04db694ef2d709aea",
+        "decimals": 9,
+        "chainId": 9889
+      }
+    ]
   }
 ]
