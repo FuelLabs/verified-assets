@@ -73,6 +73,7 @@
 | `Ethena` | [`0x57e114B691Db790C35207b2e685D4A43181e6061`](https://etherscan.io/address/0x57e114B691Db790C35207b2e685D4A43181e6061) | `18` |
 | `PayPal USD` | [`0x6c3ea9036406852006290770BEdFcAbA0e23A0e8`](https://etherscan.io/address/0x6c3ea9036406852006290770BEdFcAbA0e23A0e8) | `6` |
 | `Worldcoin` | [`0x163f8C2467924be0ae7B5347228CABF260318753`](https://etherscan.io/address/0x163f8C2467924be0ae7B5347228CABF260318753) | `18` |
+| `Lighter` | [`0x232CE3bd40fCd6f80f3d55A522d03f25Df784Ee2`](https://etherscan.io/address/0x232CE3bd40fCd6f80f3d55A522d03f25Df784Ee2) | `18` |
 
 ## Fuel Devnet
 
@@ -152,4 +153,19 @@
 | `uwVVV` | `0x6f99581466e8aadbc749837d1fe063bf013b6d69980dfecf81cc00c648d2c55d` | `0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504` | `9` |
 | `Worldcoin` | `0xe47fd30577a41413ee78bd46a85fe5a61522f49bb655df45d29678b861bf8714` | `0x4ea6ccef1215d9479f1024dff70fc055ca538215d2c8c348beddffd54583d0e8` | `9` |
 | `uwWLD` | `0xef13df7d602c6a424ed6b1cb7de18eaed4397fa1eaf8eeb04db694ef2d709aea` | `0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504` | `9` |
+| `uwHYPE` | `0x27bb607bae34dca949fcad0ed777428476d3986c30222507341c46223953c1ac` | `0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504` | `9` |
+| `uwBNB` | `0x829ad4f72a3e6e94f0ecc1ffcb48ed108965e4601cc45c41c6a931eafd6d02d0` | `0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504` | `9` |
+| `uwLIT` | `0xfdb4b13bfa1beb8433bd92f7a63bbbe023852f1d4f30220ecbd6aeee54c050a0` | `0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504` | `9` |
+
+## Ethereum hyperevm
+
+| Name | Address | Decimals |
+|------|---------|----------|
+| `HYPE` |  | `18` |
+
+## Ethereum bsc
+
+| Name | Address | Decimals |
+|------|---------|----------|
+| `BNB` |  | `18` |
 

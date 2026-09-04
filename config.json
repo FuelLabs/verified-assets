@@ -5,7 +5,9 @@
       "sepolia": 11155111,
       "foundry": 31337,
       "base": 8453,
-      "baseSepolia": 84532
+      "baseSepolia": 84532,
+      "bsc": 56,
+      "hyperevm": 999
     },
     "fuel": {
       "devnet": 1119889111,
