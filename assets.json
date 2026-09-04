@@ -1056,5 +1056,87 @@
                 "decimals": 9
             }
         ]
+    },
+    {
+        "name": "HYPE",
+        "symbol": "HYPE",
+        "icon": "images/HYPE.png",
+        "networks": [
+            {
+                "type": "ethereum",
+                "chain": "hyperevm",
+                "decimals": 18
+            }
+        ]
+    },
+    {
+        "name": "uwHYPE",
+        "symbol": "uwHYPE",
+        "icon": "images/HYPE.png",
+        "networks": [
+            {
+                "type": "fuel",
+                "chain": "mainnet",
+                "contractId": "0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504",
+                "subId": "0x8038efd8419e3ed72bc5da8ee064332c064801f950f87b60d925c66a6e02acdb",
+                "assetId": "0x27bb607bae34dca949fcad0ed777428476d3986c30222507341c46223953c1ac",
+                "decimals": 9
+            }
+        ]
+    },
+    {
+        "name": "BNB",
+        "symbol": "BNB",
+        "icon": "images/BNB.png",
+        "networks": [
+            {
+                "type": "ethereum",
+                "chain": "bsc",
+                "decimals": 18
+            }
+        ]
+    },
+    {
+        "name": "uwBNB",
+        "symbol": "uwBNB",
+        "icon": "images/BNB.png",
+        "networks": [
+            {
+                "type": "fuel",
+                "chain": "mainnet",
+                "contractId": "0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504",
+                "subId": "0xe1926cdc5a88e666a42403a5c9c69adec44c20ef075560e87812775d73052e01",
+                "assetId": "0x829ad4f72a3e6e94f0ecc1ffcb48ed108965e4601cc45c41c6a931eafd6d02d0",
+                "decimals": 9
+            }
+        ]
+    },
+    {
+        "name": "Lighter",
+        "symbol": "LIT",
+        "icon": "images/LIT.png",
+        "networks": [
+            {
+                "type": "ethereum",
+                "chain": "mainnet",
+                "address": "0x232CE3bd40fCd6f80f3d55A522d03f25Df784Ee2",
+                "decimals": 18
+            }
+        ]
+    },
+    {
+        "name": "uwLIT",
+        "symbol": "uwLIT",
+        "icon": "images/LIT.png",
+        "networks": [
+            {
+                "type": "fuel",
+                "chain": "mainnet",
+                "contractId": "0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504",
+                "subId": "0x2fd2d0829ca4873f36f711d1d080e9353394f6c1c424ee05b0c062457c6f630b",
+                "assetId": "0xfdb4b13bfa1beb8433bd92f7a63bbbe023852f1d4f30220ecbd6aeee54c050a0",
+                "decimals": 9
+            }
+        ]
     }
 ]
