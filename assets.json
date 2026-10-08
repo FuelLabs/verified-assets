@@ -776,6 +776,21 @@
         ]
     },
     {
+        "name": "uwWBTC",
+        "symbol": "uwWBTC",
+        "icon": "images/wbtc.svg",
+        "networks": [
+            {
+                "type": "fuel",
+                "chain": "mainnet",
+                "contractId": "0x0f9f509374c2da68997a3a1ad6d85be3f351c2f5f3da4c65bdbfad9b0bb25504",
+                "subId": "0x8355a5c4a6c5c3765e9c41bab4f9ddece06ada2c9de535da1933fa39e9d92cac",
+                "assetId": "0x1a48bde9b03ff7f6ab9d566c3f8968a532a782402976053cebfa113cbb9a03ef",
+                "decimals": 9
+            }
+        ]
+    },
+    {
       "name": "uwUSDT",
       "symbol": "uwUSDT",
       "icon": "images/usdt.svg",
